@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffe Blog</title>
+    <meta name="description" content="Web page of Coffee's Blog">
+
+    <!-- Prefetch (To study our clients movement we can use Google Analytics)-->
+    <link rel="prefetch" href="us.html" as="document">
+
+    <!-- Preload -->
+    <link rel="preload" href="css/normalize.css" as="style">
+    <link rel="stylesheet" href="css/normalize.css">
+
+    <link rel="preload" href="css/styles.css" as="style">
+    <link rel="stylesheet" href="css/styles.css">
+
+    <link rel="preload"
+        href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&family=Roboto:wght@300&display=swap"
+        crossorigin="crossorigin" as="font">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&family=Roboto:wght@300&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header class="header">
+
+        <div class="container">
+            <div class="bar">
+                <a href="index.html" class="logo">
+                    <h1 class="logo__element no-margin center-text">Coffee<span class="logo__bold">Blog</span></h1>
+                </a>
+
+                <nav class="navegation">
+                    <a href="us.html" class="navegation__link">Us</a>
+                    <a href="courses.html" class="navegation__link">Courses</a>
+                    <a href="contact.html" class="navegation__link">Contact</a>
+                </nav>
+            </div>
+        </div>
+
+        <div class="header__text">
+            <h2 class="no-margin">Coffee Blog design to the coffee's lovers</h2>
+            <p class="no-margin">Welcome to the world of the real lovers of Coffee</p>
+        </div>
+
+    </header>
+
+    <div class="container main-content">
+        <main class="blog">
+            <h3>Our Blog</h3>
+            <article class="entry">
+
+                <div class="entry__image">
+                    <picture>
+                        <source loading="lazy" srcset="img/blog1.webp" type="image/webp">
+                        <img src="img/blog1.jpg" alt="Image blog" loading="lazy">
+                    </picture>
+                </div>
+
+                <div class="entry__content">
+                    <h4 class="no-margin entry__title">Types of Coffee Grains</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, iure. Deleniti, qui! Explicabo
+                        velit, atque vero dolore commodi eaque voluptas voluptatum rerum vitae. </p>
+                    <a href="entry.html" class="button button--primary">Read entry</a>
+                </div>
+
+            </article>
+
+            <article class="entry">
+
+                <div class="entry__image">
+                    <picture>
+                        <source loading="lazy" srcset="img/blog2.webp" type="image/webp">
+                        <img src="img/blog2.jpg" alt="Image blog" loading="lazy">
+                    </picture>
+                </div>
+
+                <div class="entry__content">
+                    <h4 class="no-margin entry__title">5 Delicious Recipies for coffee</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, iure. Deleniti, qui! Explicabo
+                        velit, atque vero dolore commodi eaque voluptas voluptatum rerum vitae. </p>
+                    <a href="entry.html" class="button button--primary">Read entry</a>
+                </div>
+
+            </article>
+
+            <article class="entry">
+
+                <div class="entry__image">
+                    <picture>
+                        <source loading="lazy" srcset="img/blog3.webp" type="image/webp">
+                        <img src="img/blog3.jpg" alt="Image blog" loading="lazy">
+                    </picture>
+                </div>
+
+                <div class="entry__content">
+                    <h4 class="no-margin entry__title">Benefits of Coffee</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, iure. Deleniti, qui! Explicabo
+                        velit, atque vero dolore commodi eaque voluptas voluptatum rerum vitae. </p>
+                    <a href="entry.html" class="button button--primary">Read entry</a>
+                </div>
+
+            </article>
+        </main>
+
+        <aside>
+            <h3>Our Courses and Workshops</h3>
+            <ul class="courses no-padding">
+
+                <li class="course-widget">
+                    <h4 class="no-margin">Coffee Extraction Techniques</h4>
+                    <p class="course-widget__label">Price:
+                        <span class="course-widget__info">Free</span>
+                    </p>
+                    <p class="course-widget__label">Quota:
+                        <span class="course-widget__info">Free</span>
+                    </p>
+                    <a href="courses.html" class="button button--secondary">More information</a>
+                </li>
+
+                <li class="course-widget">
+                    <h4 class="no-margin">4 Recipies of Coffe for beginners </h4>
+                    <p class="course-widget__label">Price:
+                        <span class="course-widget__info">Free</span>
+                    </p>
+                    <p class="course-widget__label">Quota:
+                        <span class="course-widget__info">20$</span>
+                    </p>
+                    <a href="entry.html" class="button button--secondary">More information</a>
+                </li>
+
+                <li class="course-widget">
+                    <h4 class="no-margin">Types of Coffee</h4>
+                    <p class="course-widget__label">Price:
+                        <span class="course-widget__info">Free</span>
+                    </p>
+                    <p class="course-widget__label">Quota:
+                        <span class="course-widget__info">30$</span>
+                    </p>
+                    <a href="entry.html" class="button button--secondary">More information</a>
+                </li>
+            </ul>
+        </aside>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="bar">
+                <a href="index.html" class="logo">
+                    <h1 class="logo__element no-margin center-text">Coffee<span class="logo__bold">Blog</span></h1>
+                </a>
+
+                <nav class="navegation">
+                    <a href="us.html" class="navegation__link">Us</a>
+                    <a href="courses.html" class="navegation__link">Courses</a>
+                    <a href="contact.html" class="navegation__link">Contact</a>
+                </nav>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/modernizr.js"></script>
+</body>
+
+</html>

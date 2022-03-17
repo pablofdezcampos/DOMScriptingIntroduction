@@ -88,8 +88,6 @@ form.addEventListener('submit', function(event) {
 
     //Create alert is fields are correct
     showMessaje('The messaje sent correctly');
-
-    //Send Form
 });
 
 

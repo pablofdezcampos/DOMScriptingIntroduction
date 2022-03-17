@@ -42,13 +42,13 @@ sendButton.addEventListener('click', function(event) {
 //Events of the input and text-areas
 const nameInput = document.querySelector('#name');
 const emailInput = document.querySelector('#email');
-const messajeInput = document.querySelector('#messaje')
-    /*
-        input -> for a validation in real time
-        change -> control the validation when you go out for that field
+const messajeInput = document.querySelector('#messaje');
+/*
+    input -> for a validation in real time
+    change -> control the validation when you go out for that field
 
-        target -> the input value
-    */
+    target -> the input value
+*/
 nameInput.addEventListener('input', readText);
 emailInput.addEventListener('input', readText);
 messajeInput.addEventListener('input', readText);

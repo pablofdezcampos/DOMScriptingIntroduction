@@ -27,3 +27,13 @@
     - Refactor.js:
          - Validating the form but with a refactor code.
 # Use 
+- The project is structured in index.html and contact.html
+- To see the result of a content, you must uncomment one of the section. Later, go to the console of a browser (to run the project you can use LifeServer for example).
+- To go to the console of a browser press f12 or control + shift + i, to see the inspector.
+- In the validation of a form, introduce data in the form and see the result.
+- Example:
+![image](https://user-images.githubusercontent.com/57486874/158806896-e220d1a0-78b2-4b31-933f-3de3bae5e642.png)
+![image](https://user-images.githubusercontent.com/57486874/158806936-9802e551-cda6-45ad-9f5c-0caf986b9cda.png)
+
+- There is not backend so there is not a submit for the form
+
